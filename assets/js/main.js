@@ -261,22 +261,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-$(document).ready(function () {
-  $('.owl-carousel').owlCarousel({
-    items: 1,  // Display one item at a time
-    loop: true,  // Enable loop mode
-    nav: true,  // Show navigation buttons
-    dots: false,  // Hide pagination dots
-    autoplay: true,
-    autoplayTimeout: 5000
-  });
+// $(document).ready(function () {
+//   $('.owl-carousel').owlCarousel({
+//     items: 1,  // Display one item at a time
+//     loop: true,  // Enable loop mode
+//     nav: true,  // Show navigation buttons
+//     dots: false,  // Hide pagination dots
+//     autoplay: true,
+//     autoplayTimeout: 5000
+//   });
 
 
-  $('.cotton-product-slider').owlCarousel({
-    items: 1,
-    loop: true,
-    nav: false,
-    dots: false,
-    autoplay: true
-  });
-});
+//   $('.cotton-product-slider').owlCarousel({
+//     items: 1,
+//     loop: true,
+//     nav: false,
+//     dots: false,
+//     autoplay: true
+//   });
+// });
